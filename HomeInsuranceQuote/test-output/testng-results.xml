@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15758" started-at="2021-04-25T22:09:58 BST" finished-at="2021-04-25T22:10:13 BST">
+  <suite name="Suite" duration-ms="27153" started-at="2021-04-26T10:48:12 BST" finished-at="2021-04-26T10:48:39 BST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="15758" started-at="2021-04-25T22:09:58 BST" finished-at="2021-04-25T22:10:13 BST">
-      <class name="home.insurance.HomeInsuranceQuote">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:home.insurance.HomeInsuranceQuote@50d0686]" name="startReport" is-config="true" duration-ms="116" started-at="2021-04-25T22:09:58 BST" finished-at="2021-04-25T22:09:58 BST">
+    <test name="Test" duration-ms="27153" started-at="2021-04-26T10:48:12 BST" finished-at="2021-04-26T10:48:39 BST">
+      <class name="testcases.HomeInsuranceQuote">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testcases.HomeInsuranceQuote@50d0686]" name="startReport" is-config="true" duration-ms="344" started-at="2021-04-26T10:48:12 BST" finished-at="2021-04-26T10:48:12 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="startApp()[pri:0, instance:home.insurance.HomeInsuranceQuote@50d0686]" name="startApp" is-config="true" duration-ms="5946" started-at="2021-04-25T22:09:58 BST" finished-at="2021-04-25T22:10:04 BST">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:testcases.HomeInsuranceQuote@50d0686]" name="startApp" is-config="true" duration-ms="7671" started-at="2021-04-26T10:48:12 BST" finished-at="2021-04-26T10:48:20 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method status="PASS" signature="setTestDetails()[pri:0, instance:home.insurance.HomeInsuranceQuote@50d0686]" name="setTestDetails" is-config="true" duration-ms="0" started-at="2021-04-25T22:10:04 BST" depends-on-methods="base.BaseClass.startApp" finished-at="2021-04-25T22:10:04 BST">
+        <test-method status="PASS" signature="setTestDetails()[pri:0, instance:testcases.HomeInsuranceQuote@50d0686]" name="setTestDetails" is-config="true" duration-ms="0" started-at="2021-04-26T10:48:20 BST" depends-on-methods="base.BaseClass.startApp" finished-at="2021-04-26T10:48:20 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestDetails -->
-        <test-method status="PASS" signature="createReport()[pri:0, instance:home.insurance.HomeInsuranceQuote@50d0686]" name="createReport" is-config="true" duration-ms="15" started-at="2021-04-25T22:10:04 BST" finished-at="2021-04-25T22:10:04 BST">
+        <test-method status="PASS" signature="createReport()[pri:0, instance:testcases.HomeInsuranceQuote@50d0686]" name="createReport" is-config="true" duration-ms="4" started-at="2021-04-26T10:48:20 BST" finished-at="2021-04-26T10:48:20 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method status="PASS" signature="enterInputForHomeInsuranceQuote(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.insurance.HomeInsuranceQuote@50d0686]" name="enterInputForHomeInsuranceQuote" duration-ms="9239" started-at="2021-04-25T22:10:04 BST" data-provider="fetchData" finished-at="2021-04-25T22:10:13 BST">
+        <test-method status="PASS" signature="enterInputForHomeInsuranceQuote(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.HomeInsuranceQuote@50d0686]" name="enterInputForHomeInsuranceQuote" duration-ms="18771" started-at="2021-04-26T10:48:21 BST" data-provider="fetchData" finished-at="2021-04-26T10:48:39 BST">
           <params>
             <param index="0">
               <value>
@@ -144,11 +144,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterInputForHomeInsuranceQuote -->
-        <test-method status="PASS" signature="stopReport()[pri:0, instance:home.insurance.HomeInsuranceQuote@50d0686]" name="stopReport" is-config="true" duration-ms="300" started-at="2021-04-25T22:10:13 BST" finished-at="2021-04-25T22:10:14 BST">
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:testcases.HomeInsuranceQuote@50d0686]" name="stopReport" is-config="true" duration-ms="308" started-at="2021-04-26T10:48:40 BST" finished-at="2021-04-26T10:48:40 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
-      </class> <!-- home.insurance.HomeInsuranceQuote -->
+      </class> <!-- testcases.HomeInsuranceQuote -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
