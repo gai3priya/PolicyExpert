@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1">
+    <classes>
+      <class name="com.ford.auto.RestAssuredSample.RESTAssuredDataDriven">
+        <methods>
+          <include name="md5JsonTest"/>
+        </methods>
+      </class> <!-- com.ford.auto.RestAssuredSample.RESTAssuredDataDriven -->
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Failed suite [Suite] -->
